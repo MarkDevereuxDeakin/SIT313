@@ -1,0 +1,200 @@
+/*!
+ * https://www.chiphost.org/form/reg-form/ - accessed 15/08/2021
+ * Refactored for assignment
+ * Bootstrap v4.5.3 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+/**https://www.chiphost.org/form/reg-form/ - accessed 15/08/2021 */ 
+html {  
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/**https://www.chiphost.org/form/reg-form/ - accessed 15/08/2021 */ 
+footer, header, main, nav, section {
+  display: block;
+}
+
+/**https://www.chiphost.org/form/reg-form/ - accessed 15/08/2021 */ 
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: teal;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+/**https://www.chiphost.org/form/reg-form/ - accessed 15/08/2021 */ 
+body {
+  margin: 0;  
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+  min-width: 992px !important;
+}
+
+/**https://www.chiphost.org/form/reg-form/ - accessed 15/08/2021 */ 
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/**https://www.chiphost.org/form/reg-form/ - accessed 15/08/2021 */ 
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+/**https://www.chiphost.org/form/reg-form/ - accessed 15/08/2021 */ 
+@media (min-width: 768px) {
+  .container{
+    max-width: 720px;
+  }
+}
+
+/**https://www.chiphost.org/form/reg-form/ - accessed 15/08/2021 */ 
+@media (min-width: 992px) {
+  .container{
+    max-width: 960px;
+  }
+}
+
+/**https://www.chiphost.org/form/reg-form/ - accessed 15/08/2021 */ 
+@media (min-width: 1200px) {
+  .container{
+    max-width: 1140px;
+  }
+}
+
+/**https://www.chiphost.org/form/reg-form/ - accessed 15/08/2021 */ 
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/**https://www.chiphost.org/form/reg-form/ - accessed 15/08/2021 */ 
+.title-text{  
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/**https://www.chiphost.org/form/reg-form/ - accessed 15/08/2021 */ 
+.row {
+  width:50%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+/**https://www.w3schools.com/howto/howto_css_two_columns.asp - accessed 16/08/2021 */
+.column-double-left {
+  float: left;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  width: 45%;
+  position: relative; 
+  -ms-flex: 0 0 45%;
+  flex: 0 0 45%;
+  max-width: 45%;
+}
+
+/**https://www.w3schools.com/howto/howto_css_two_columns.asp - accessed 16/08/2021 */
+.column-double-right {
+  float: right;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  width: 45%;
+  position: relative; 
+  -ms-flex: 0 0 45%;
+  flex: 0 0 45%;
+  max-width: 45%;
+}
+
+/**https://www.w3schools.com/howto/howto_css_two_columns.asp - accessed 16/08/2021 */
+.column-single{
+  margin-left: 2.5%;
+  margin-right: 2.5%;    
+  width: 100%;  
+}
+
+/**https://www.w3schools.com/howto/howto_css_two_columns.asp - accessed 16/08/2021 */
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/**https://www.w3schools.com/howto/howto_css_stacked_form.asp - accessed 16/08/2021 */
+/* Style inputs */
+input, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/**https://www.w3schools.com/howto/howto_css_two_columns.asp - accessed 16/08/2021 */
+.button-row{  
+  display: flex;
+  align-items: center;
+  justify-content: center;   
+  width: 50%;
+  position: relative; 
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+/**https://www.javatpoint.com/how-to-center-a-button-in-css - accessed 16/08/2021 */
+.button {
+  margin-top: 10px;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+  color: #fff;
+  background-color: teal;
+  border-color: teal;
+}
+
+/**https://www.chiphost.org/form/reg-form/ - accessed 15/08/2021 */ 
+.button-primary {
+  color: #fff;
+  background-color: teal;
+  border-color: teal;
+}
+
+/**https://www.chiphost.org/form/reg-form/ - accessed 15/08/2021 */ 
+.button-primary:hover {
+  color: #fff;
+  background-color: rgb(0, 100, 100);
+  border-color: rgb(0, 85, 85);
+}
+
+/**https://www.chiphost.org/form/reg-form/ - accessed 15/08/2021 */ 
+.button-primary:focus, .button-primary.focus {
+  color: #fff;
+  background-color: rgb(0, 100, 100);
+  border-color: rgb(0, 85, 85);
+  box-shadow: 0 0 0 0.2rem rgb(0, 39, 39);
+}

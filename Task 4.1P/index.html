@@ -1,0 +1,92 @@
+<!--https://www.chiphost.org/form/reg-form/ - accessed 15/08/2021-->
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="author" content="Mark Devereux">
+      <link rel="stylesheet" href="css/registration.css">
+      <title>Customer Registration iService Account</title>
+    </head>
+
+    <body>
+      <div class="container title-text">                 
+        <h1>Customer Registration</h1>
+        <h3>Create an iService Account</h3>        
+      </div>
+
+      <div class="container">  
+        <form name="registration" action="/" method="POST">
+          <div class="row">
+            <div class="column-double-left">
+              <label for="first_name">First Name*</label>
+              <input type="text" name="first_name">
+            </div>
+            <div class="column-double-right">
+              <label for="last_name">Last Name*</label>
+              <input type="text" name="last_name">
+            </div>
+          </div>
+          <div class="row">
+            <div class="column-single">
+              <label for="email">Email*</label>
+              <input type="text" name="email">            
+            </div>
+          </div>
+          <div class="row">
+            <div class="column-single">
+              <label for="mobile">Mobile Phone</label>
+              <input type="tel" name="mobile">            
+            </div>
+          </div>
+          <div class="row">
+            <div class="column-single">
+              <label for="password">Password*</label>
+              <input type="password" name="password">            
+            </div>
+          </div>
+          <div class="row">
+            <div class="column-single">
+              <label for="confirm_password">Confirm Password*</label>
+              <input type="password" name="password_confirm">            
+            </div>
+          </div>
+          <div class="row" >            
+            <div class="column-single">
+              <label for="address address2">Address*</label>
+              <input type="text" name="address" >
+              <input type="text" name="address2">   
+            </div>
+          </div>          
+          <div class="row">
+            <div class="column-double-left">
+              <label for="city">City*</label>
+              <input type="text" name="city" >
+            </div>
+            <div class="column-double-right">              
+              <label for="state">State, Province or Region*</label>
+              <input type="text" name="state" >              
+            </div>
+          </div>
+          <div class="row">
+            <div class="column-double-left">
+              <label for="postcode">Zip/Postal Code</label>
+              <input type="text" name="postcode">
+            </div>
+            <div class="column-double-right">
+              <label for="country">Country of Residence*</label>
+                  <select name="country" >
+                    <option value="">Choose...</option>
+                    <option>Australia</option>
+                    <option>New Zealand</option>
+                    <option>United Kingdom</option>
+                  </select>
+            </div>
+          </div class="row">
+            <div class="button-row">
+              <button type="submit" class="button button-primary">Create Account</button>
+            </div>
+        </form>
+      </div>          
+    </body>
+  </html>
