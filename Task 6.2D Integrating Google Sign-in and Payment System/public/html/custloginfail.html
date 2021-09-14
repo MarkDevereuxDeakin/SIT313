@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">   
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <title>iService Customer Login</title>
+    <style>
+        p{color:crimson;}
+    </style>
+
+</head>
+<body>
+    <div class="container title-text">                 
+        <h1 style="color: teal;">iService Customer Login</h1>                
+    </div>
+<div class="container">
+    <form name="login" action="/custlogin" method="POST">        
+        <div class="row">
+            <div class="column-double-left" >
+                <h2 class="card-title " style="font-size: 1.25rem;">Login</h2>
+            </div> 
+            <div class="column-double-right">            
+                <a href="/html/custregister.html" class="button button-outline-primary">Sign up</a>
+            </div>
+        </div>      
+        <div class="row">
+            <div class="column-single">
+                <label for="email">Your Email</label>
+                <input name="email" type="text">
+            </div> 
+        </div>                        
+        <div class="row">
+            <div class="column-single">                
+                <label for="password">Your password</label>
+                <input name="password" type="password">
+            </div>                        
+        </div>
+        <div class="row"> 
+            <div class="column-double-left">
+                <label style="float: right;" for="save">Save password</label>
+            </div>
+            <div class="column-double-right">
+                <input name="save" type="checkbox" style="float: left;">
+            </div>
+        </div>
+        
+        <div class="button-row">
+            <button type="submit" class="button button-primary"> Login  </button>
+        </div>
+        <div class="button-row">            
+            <a href="#" class="button button-outline-primary">Forgot Password?</a>                     
+        </div>      
+    </form>
+    <p>Username and/or Password is Wrong</p>
+</div>        
+</body>
+</html>
+
+
+
+
