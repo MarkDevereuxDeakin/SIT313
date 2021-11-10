@@ -82,33 +82,6 @@ app.route('/experts/:id')
     })
 })
 
-/*app.get('/deakin', (req, res)=>{
-    if(req.isAuthenticated())
-    {
-        res.sendFile(__dirname + '/deakin.html')
-    }
-    else
-    {
-        res.redirect('/')
-    }
-})
-
-//register
-app.post('/', (req, res)=>{
-    User.register({usuername:req.body.username}, req.body.password, (err, user)=>{
-        if(err)
-        {
-            console.log('err');
-            res.redirect('/')
-        }
-        else{
-            passport.authenticate('local')(req, res, ()=>{
-                res.redirect('/deakin');
-            })
-        }
-    })
-})*/
-
 let port = 8080;
 if(port == null || port ==""){
     port = 8080;
