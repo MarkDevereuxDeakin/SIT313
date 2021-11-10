@@ -229,9 +229,9 @@ async (req, res) => {
         return res.status(400).json({ errors: errors.array() });
     }
 
-    const ApiKey = "436dc8ef44f3e35e98a936a7989befd0-us5";
-    const list_Id = "edeaccfe5b";
-    const url = "https://us5.api.mailchimp.com/3.0/lists/edeaccfe5b"//members/{subscriber_hash}/notes/{id}"
+    const ApiKey = "<insert>";
+    const list_Id = "<insert>";
+    const url = "<insert>"//members/{subscriber_hash}/notes/{id}"
         
     const first_name = req.body.first_name
     const last_name = req.body.last_name
@@ -280,7 +280,7 @@ async (req, res) => {
 
         const options = {
             method: "Post",
-            auth: "mark:436dc8ef44f3e35e98a936a7989befd0-us5"
+            auth: "<insert>"
         }
     
         const request = https.request(url, options, (response) => {
