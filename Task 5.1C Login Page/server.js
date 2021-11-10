@@ -51,7 +51,7 @@ app.listen(port, function(request, response)
     console.log("Server is running on port" + port)
 });
 
-mongoose.connect ("mongodb+srv://Hajime-Saito:KuvvZm7ineTPMnZ@cluster0.issik.mongodb.net/iServiceDB?retryWrites=true&w=majority", {useNewUrlParser:true});
+mongoose.connect (<insert here>, {useNewUrlParser:true});
 
 const customerSchema = new mongoose.Schema(
     {
