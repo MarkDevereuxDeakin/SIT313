@@ -19,7 +19,7 @@ app.use(express.static(path.join(__dirname, "/public")));
         cookie: {maxAge: 120000},
         resave: false,
         saveUninitialized: false,
-        secret: '$$$iServiceSecret'
+        secret: '<insert>'
     }
 ))
 
