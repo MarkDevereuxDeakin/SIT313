@@ -39,7 +39,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 //mongoose 
-mongoose.connect ("mongodb+srv://Hajime-Saito:KuvvZm7ineTPMnZ@cluster0.issik.mongodb.net/iServiceDB?retryWrites=true&w=majority", {useNewUrlParser:true, useUnifiedTopology: true});
+mongoose.connect (<insert>, {useNewUrlParser:true, useUnifiedTopology: true});
 
 //mongoose local database
 //mongoose.connect('mongodb://localhost:27017/iServiceDB', {useNewUrlParser:true, useUnifiedTopology: true});
